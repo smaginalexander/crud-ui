@@ -1,0 +1,59 @@
+.table__input {
+    color: white;
+    height: 25px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(250, 250, 250);
+    outline: none;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+.table__input_active {
+    border-bottom: 1px solid rgb(0, 132, 255);
+    transition: all 0.3s;
+}
+
+.buttnon-container {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttnon-container__button {
+    margin-right: 10px;
+    background: rgba(255, 0, 0, 0);
+    color: white;
+    cursor: pointer;
+    height: 35px;
+    border: 1px solid white;
+    outline: none;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.buttnon-container__button_type_delete {
+    width: 85px;
+}
+
+.buttnon-container__button_type_delete:hover {
+    background: rgb(179, 0, 0);
+    border: none;
+}
+
+.buttnon-container__button_type_edit {
+    width: 140px;
+}
+
+.buttnon-container__button_type_edit:hover {
+    background: rgb(0, 132, 255);
+    border: none;
+}
+
+.buttnon-container__button_type_save {
+    width: 140px;
+}
+
+.buttnon-container__button_type_save:hover {
+    background: #44ff53;
+}
