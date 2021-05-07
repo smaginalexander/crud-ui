@@ -47,8 +47,6 @@ function App() {
       })
   }
 
-
-
   return (
     <div className="App">
       <form className="form" onSubmit={addData}>
